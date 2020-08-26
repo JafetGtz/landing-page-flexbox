@@ -1,0 +1,57 @@
+.product-filter{
+    display: flex;
+}
+
+.product-filter h1{
+    flex-grow: 1;
+    
+
+}
+
+.sort{
+    display: flex;
+}
+
+.collection-sort{
+    display: flex;
+    flex-direction: column;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+label {
+	color: #666;
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 2em;
+	text-transform: uppercase;
+}
+.product-card {
+	display: flex;
+	flex-direction: column;
+	
+	padding: 2%;
+	flex: 1 16%;
+	
+	background-color: #FFF;
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
+}
+
+
+.product-image img {
+    max-width: 100%;
+  }
+  .product-info {
+    margin-top: auto;
+	padding-top: 20px;
+	text-align: center;
+  }
+
+  @media (max-width: 920px){
+      .product-card{
+          flex: 1 21%;
+      }
+  }
